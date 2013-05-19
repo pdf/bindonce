@@ -88,6 +88,7 @@ when used with `ng-repeat` `bindonce` doesn't need to check if `person` is defin
 | `bo-alt = "text"`      | evaluates "text" and render it as `alt` for the element |`<img bo-src="picture" bo-alt="title">`|
 | `bo-title = "text"`      | evaluates "text" and render it as `title` for the element |`<img bo-src="picture" bo-title="title">`|
 | `bo-style = "text"`      | evaluates "text" and render it as `style` for the element |`<img bo-src="picture" bo-style="style">`|
+| `bo-id = "text"`      | evaluates "text" and render it as `id` for the element |`<img bo-src="picture" bo-id="id">`|
 
 ## Todo
 Examples and Tests

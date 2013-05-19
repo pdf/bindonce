@@ -111,6 +111,7 @@
 							case 'alt':
 							case 'title':
 							case 'style':
+							case 'id':
 							binder.element.attr(binder.attr, value); 
 							break;
 						}
@@ -148,7 +149,8 @@ angular.forEach({
 	'boHref' : 'href',
 	'boAlt' : 'alt',
 	'boTitle' : 'title',
-	'boStyle' : 'style'
+	'boStyle' : 'style',
+	'boId' : 'id'
 }, 
 function(tag, attribute) 
 {
